@@ -1,10 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Inventory management backend (Express + SQLite)",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
     "express-validator": "^7.3.1",
     "multer": "^2.0.2",
     "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
