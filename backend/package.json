@@ -4,7 +4,8 @@
   "description": "Inventory management backend (Express + SQLite)",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "npm rebuild sqlite3 --build-from-source"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,6 @@
     "sqlite3": "^5.1.7"
   },
   "engines": {
-    "node": ">=16"
+    "node": "18.x"
   }
 }
